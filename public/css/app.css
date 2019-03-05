@@ -1,0 +1,191 @@
+body{
+    font-family: Roboto,arial,sans-serif!important;
+}
+
+a {
+    color: #333;
+}
+
+.mt-card-name a{
+    color: #167ac6;
+}
+.mt-card-desc a{
+    color: #767676;
+}
+
+
+.list-group-item {
+    background-color: #FFF;
+    border: none;
+}
+
+.margin-left-5 {
+    margin-left: 5px;
+}
+
+
+/* Imagens de dentro do conteudo do Episodio devem ter no maximo 100% */
+.panel-body img {
+    max-width: 100%;
+    height: auto;
+}
+
+.mt-element-card .mt-card-item {
+    border: 0px solid #e7ecf1;
+    position: relative;
+    margin-bottom: 10px;
+    padding: 12px;
+    display: inline-block;
+    vertical-align: top;
+    word-wrap: break-word;
+    display: inline-block;
+    width: 170px;
+}
+
+@media (min-width: 992px) {
+    .mt-element-card .mt-card-item .mt-card-content {
+        text-align: center;
+        /* height: 360px; */
+    }
+
+    .mt-element-card .mt-card-item .mt-card-content .mt-card-name {
+        font-size: 14px;
+        text-align: left;
+    }
+
+    .mt-element-card .mt-card-item .mt-card-content .mt-card-desc {
+        font-size: 12px;
+        text-align: left;
+    }
+}
+
+@media (max-width: 480px) {
+    .page-header .top-menu {
+        background-color: transparent;
+    }
+}
+
+@media (max-width: 991px) {
+    .page-content {
+        padding: 15px 0;
+    }
+}
+
+
+/*
+* LIST MANAGER
+*/
+.mt-element-list .list-simple.mt-list-container {
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    border-color: transparent;
+}
+.mt-element-list .list-simple.mt-list-container ul>.mt-list-item>.list-program-logo {
+    float: left;
+    width: 50px;
+    height: 100%;
+    margin: -15px;
+}
+.mt-element-list .list-simple.mt-list-container ul>.mt-list-item>.list-program-subscription {
+    float: right;
+}
+.mt-element-list .list-simple.mt-list-container ul>.mt-list-item>.list-item-content>h3>a:hover {
+    color: #23527c;
+    text-decoration: underline;
+}
+.list-program-logo img{
+    width: 100%!important;
+}
+
+
+
+
+/*
+* SHARE FADE
+*/
+.fade-enter-active, .fade-leave-active {
+    transition: opacity .5s
+}
+.fade-enter, .fade-leave-active {
+    opacity: 0
+}
+
+
+/*
+* BUG LIKE BUTTON (-1px to 0px)
+*/
+.btn-group .btn+.btn, .btn-group .btn+.btn-group, .btn-group .btn-group+.btn, .btn-group .btn-group+.btn-group {
+    margin-left: 0px;
+}
+
+
+
+/*
+* EPISODE TEMPO DO EPISODIO
+*/
+.episode-time {
+    position: absolute;
+    bottom: 1px;
+    right: 1px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-bottom: 10px;
+    font-size: 11px;
+    background-color: #000;
+    color: #fff!important;
+    height: 14px;
+    line-height: 14px;
+    opacity: .75;
+    filter: alpha(opacity=75);
+    display: -moz-inline-stack;
+}
+
+
+/*
+* BOTAO ASSINAR
+*/
+
+#btn-subscribe {
+    margin-right: 0px;
+}
+
+
+/*
+* FONTS-COLORS
+*/
+
+.bg-fb-blue {
+    background: #3b5998!important;
+}
+
+.font-black {
+    color: #333;
+}
+
+.font-blue{
+    color: #167ac6;
+}
+
+
+
+/*
+* PORTLET
+*/
+
+.portlet.light.portlet-fit>.portlet-body {
+    padding: 0px;
+}
+
+.portlet.light.portlet-fit>.portlet-title {
+    padding: 10px 10px 0px 10px;
+}
+
+.portlet.light.bordered>.portlet-title {
+    border-bottom: 0px solid #eef1f5;
+}
+
+.portlet.light.portlet-fit {
+    padding-left: 18px;
+    padding-right: 18px;
+}
